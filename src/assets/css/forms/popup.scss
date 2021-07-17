@@ -1,0 +1,205 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+.popup-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+.modal-dialog {
+    width: 100%;
+    max-width: 58%!important;
+    top: 10%;
+}
+
+.pop-left {
+    @include go-column;
+    width: 40%;
+}
+
+.close {
+    z-index: 9999;
+    position: absolute;
+    right: 0px;
+    margin-top: -50px;
+    margin-right: -50px;
+    color: #ffff;
+    transform: scale(2.5);
+    background: transparent!important;
+    border: none!important;
+    font-weight: 100!important;
+    opacity: 10!important;
+    font-size: 30px!important;
+}
+
+.modal-footer {
+    display: none!important;
+}
+
+.pop-left .modal-header {
+    position: absolute;
+}
+
+.modal-header {
+    border: none!important;
+}
+
+.pop-right {
+    @include go-column;
+    width: 50%;
+    background-image: url('https://i.ibb.co/68q0GpZ/Group-720.png');
+    background-size: cover;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pop-right .txt-pop {
+    text-align: center;
+    color: #ffff;
+    font-family: $fontMain;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pop-right .txt-pop h2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.pop-right .txt-pop p {
+    font-size: 20px;
+    color: #ffff;
+    font-family: $fontMain;
+}
+
+.pop-left .button-row {
+    @include go-column;
+}
+
+.modal-header {
+    position: absolute;
+}
+
+.modal-header .close {
+    z-index: 9999;
+}
+
+.alternative {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.alternative span {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: $fontMain;
+    font-size: 22px;
+}
+
+.alternative span::before {
+    content: "";
+    display: flex;
+    height: 2px;
+    width: 40%;
+    margin-right: 20px;
+    background-color: #EAEAEA;
+}
+
+#btn-reglogin-action {
+    @include btn-big;
+}
+
+.forgot-pass p {
+    text-align: right;
+    font-family: $fontMain;
+    font-size: 18px;
+}
+
+.forgot-pass a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hasprofile {
+    font-family: $fontMain;
+}
+
+.hasprofile {
+    font-size: 18px;
+}
+
+.hasprofile a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pop-left h2 {
+    font-weight: bold;
+}
+
+.alternative span::after {
+    margin-left: 20px;
+    content: "";
+    display: flex;
+    height: 2px;
+    width: 40%;
+    background-color: #EAEAEA;
+}
+
+.btn-login img {
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center!important;
+    align-items: center;
+}
+
+.btn-content {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    text-align: left;
+    align-items: center;
+}
+
+.btn-login span {
+    display: flex!important;
+    margin-left: 10px;
+}
+
+.btn-login {
+    @include btn-more;
+    margin-top: 20px;
+    box-shadow: none!important;
+    display: flex!important;
+    border: 1.5px solid #CBCBCB!important;
+    color: #333132!important;
+}
+
+.modal {
+    background-color: rgba(36, 163, 211, 0.8)!important;
+    -webkit-box-shadow: inset 0px 0px 300px 200px rgba(20, 20, 20, 0.64);
+    -moz-box-shadow: inset 0px 0px 300px 200px rgba(20, 20, 20, 0.64);
+    box-shadow: inset 0px 0px 300px 200px rgba(20, 20, 20, 0.64);
+}

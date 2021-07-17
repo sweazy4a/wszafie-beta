@@ -1,0 +1,143 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+.profleft {
+    position: absolute;
+    left: 0px;
+    top: -70px;
+    margin-left: -100px;
+}
+
+.profright {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.profile-section {
+    padding-top: 90px;
+    padding-bottom: 200px;
+    overflow: hidden;
+}
+
+.profile-content {
+    z-index: 9;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #ffff;
+    max-width: 95%;
+    -webkit-box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+    -moz-box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+    box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1.5px solid #E2E2E2;
+}
+
+.edit-avatar {
+    display: flex!important;
+    background: none!important;
+    color: #333132!important;
+    border: none!important;
+}
+
+.avatar-left .mb-2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.profile-top-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.avatar-left {
+    padding-top: 40px;
+}
+
+.edit-avatar {
+    margin-left: -50px;
+    z-index: 9999;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    font-family: $fontMain;
+}
+
+.editimg {
+    margin-right: 5px;
+}
+
+#btn-remove {
+    @include btn-remove;
+}
+
+.profile-data-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    flex-wrap: wrap;
+}
+
+.prof-col {
+    width: 28.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.prof-col .txtarea {
+    margin-top: 0px;
+    color: #5A5A5A;
+}
+
+#btn-big {
+    margin-top: 20px;
+    @include btn-big;
+}
+
+#btn-change {
+    @include btn-more;
+    max-width: fit-content;
+    display: table;
+}
+
+.prof-col h3 {
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #333132;
+}
+
+.password1-icon {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 30px;
+    height: auto;
+    background: white;
+}
+
+.mail1-icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 20px;
+    height: auto;
+    background: white;
+}
+
+.input-eyepass {
+    position: relative;
+}
+
+.mail-lock {
+    position: relative;
+}
+
+.b-form-datepicker button {
+    display: none!important;
+}

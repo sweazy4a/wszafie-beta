@@ -1,0 +1,135 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+header {
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    border-bottom: 2px solid #EAEAEA;
+}
+
+.navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 90px;
+}
+
+.left-side {
+    width: 20%;
+    display: flex;
+}
+
+.mid-side {
+    width: 35%;
+    @include the-end;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.right-side {
+    width: 50%;
+    @include the-end;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+#navigation .navbar-dark .navbar-nav .nav-link {
+    color: #333132;
+    font-family: $fontMain;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.mid-side .form-inline {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.socials {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials a {
+    display: flex;
+}
+
+.socials a img {
+    height: auto;
+    width: 20px;
+}
+
+#search-btn {
+    background: transparent;
+    border: none;
+}
+
+.mid-side {
+    margin-right: 150px;
+}
+
+.mid-side .form-inline input {
+    height: 25px;
+    border: 0px solid transparent!important;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.mid-side .form-inline input::focus {
+    outline: none!important;
+    border: 0px solid transparent!important;
+}
+
+.mid-side form {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #5D9ADD!important;
+    box-shadow: none!important;
+}
+
+#navigation .bg-info {
+    background: #ffff!important
+}
+
+#app {
+    margin-top: 0px!important;
+}
+
+#navigation .navbar-dark .navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+#navigation .navbar-dark .navbar-nav .btn-register {
+    margin-right: 0px!important;
+}
+
+#navigation #btn-register a {
+    background: $buttonBG!important;
+    color: $buttorColor!important;
+    border-radius: 10px;
+    padding: 6px 18px;
+}
+
+#navigation #btn-register {
+    background: $buttonBG!important;
+    color: $buttorColor!important;
+    border-radius: 10px;
+    padding: 6px 18px;
+    border: none;
+}
+
+.logo img {
+    height: 28px;
+    width: auto;
+}

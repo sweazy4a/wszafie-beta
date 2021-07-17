@@ -1,0 +1,70 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+.contact-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+.contact-img {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.contact-right {
+    width: 35%;
+    padding-top: 30px;
+}
+
+.contact-left .contactmail {
+    width: 100%;
+}
+
+.contact-top-txt {
+    padding-left: 50px;
+    max-width: 70%;
+}
+
+.contact-top-txt h2 {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.contact-top-txt p {
+    margin: 0px!important;
+    padding: 0px!important;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.contact-left img {
+    width: 100%;
+    height: auto;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: baseline;
+    padding-top: 15px;
+}
+
+.custom-checkbox input {
+    margin-right: 10px;
+}
+
+#btn-big {
+    margin-top: 20px;
+    @include btn-big;
+}

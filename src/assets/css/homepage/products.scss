@@ -1,0 +1,193 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+
+.product-section{
+    padding-top:50px;
+    padding-bottom:180px;
+}
+
+.prod-col {
+    @include simple-prod;
+    position:relative;   
+    padding:0px!important;
+}
+
+.prod-col img{
+    @include product-img;
+    position:relative;
+}
+
+.product-row{
+    @include def-row;
+}
+
+.prod-col-big {
+    @include big-prod;
+    position:relative;
+    overflow:hidden;
+       
+}
+.prod-col-big img{
+  @include product-img;
+  border-radius:0px!important;
+  border:0px solid transparent!important;
+  width:100%!important;
+
+}
+
+
+.prod-desc  {
+  padding-top:15px;
+}
+
+
+.prod-price{
+    font-family: $fontMain;
+    font-weight:bold;
+    margin-bottom:0px!important;
+    font-size:20px;
+
+}
+
+.prod-name{
+    font-family: $fontMain;
+    font-weight:bold;
+    margin-bottom:0px!important;
+    font-size:18px;
+}
+
+.prod-cat{
+    color:#808080;
+    font-size:18px;
+}
+
+.prod-col-big .prod-title{
+  left:25px;
+  position:absolute;
+  bottom:110px;
+  color:#ffff;
+  font-weight:bold;
+  max-width:60%;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  font-size:32px;
+}
+
+.prod-col-big .prod-desc{
+    display:flex;
+    justify-content:flex-end;
+    position:relative;
+}
+
+.prod-col-big div{
+    position:relative;
+    overflow:hidden;
+}
+
+.prod-col-big .slick-dots {
+    display:flex!important;
+    justify-content:flex-start;
+    bottom:30px;
+    left:0px;
+
+}
+.prod-col-big .slick-dots li {
+margin-right:20px!important;
+
+}
+
+.prod-col-big .slick-dots li button{
+    width:30px;
+    height:30px!important;
+    background:#ADCCEF;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0px!important;
+    padding-top:15px;
+
+  
+}
+
+.prod-col-big .slick-dots li button:before{
+    font-size:25px;
+    position:relative!important;
+}
+
+
+.slick-dots li button:before {
+    color:#F0F4FA!important;
+    opacity:10!important;
+ 
+    width:30px;
+    height:25px;
+    border-radius:50%;
+
+}
+
+#app .slick-active button{
+    background:#5A99E0!important;
+  
+}
+
+#app .prod-col-big .btn-more{
+    background:transparent!important;
+}
+
+#app .slick-active button:before{
+    color:#5A99E0!important;
+  
+}
+
+.btn-more {
+    margin-top:15px;
+    @include btn-more;
+    margin-right:5px;
+}
+
+
+.prod-tag{
+  @include tag-btn;
+}
+
+.prod-like{
+  
+   @include like-btn;
+
+}
+#app .prod-col img{
+    border:none!important;
+}
+
+.prod-unlike{
+  @include like-btn;
+    
+}
+
+.prod-like img{
+    width:100%;
+    height:auto; 
+}
+.prod-unlike img{
+    width:100%;
+    height:auto; 
+}
+
+.elementz-v {
+    position:absolute;
+    right:0px;
+    z-index:1;
+}
+
+.after-products{
+    display:flex;
+    justify-content:center;
+    padding-top:25px;
+}
+
+.after-products .btn-more{
+    margin:0 auto!important;
+}
+
+

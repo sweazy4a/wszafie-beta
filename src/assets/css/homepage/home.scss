@@ -1,0 +1,62 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+
+#hero .slick-slider .hero-content .hero-btn{
+    margin-top:20px;
+    @include the-button;
+}
+
+#hero .slick-dots{
+    display:none!important;
+}
+
+#hero .slick-slider img{
+   @include slider-img;
+}
+
+#hero .slick-slider div{
+    position:relative;
+    height:750px;
+    overflow:hidden;
+}
+
+#hero .slick-slider .hero-content{
+    position:absolute;
+    top:27%;
+    max-width:25%;
+    left:150px;
+}
+
+#hero .slick-slider h1 {
+    padding-bottom:20px;
+    font-size:45px;
+    font-weight:bold;
+    color:$textColor;
+}
+
+#hero .slick-slider .hero-content p {
+    font-size:18px;
+    color:$textColor;
+}
+
+#hero .slick-slider .slick-prev:before{
+    content:"<"!important;
+    color:#ffff!important;
+    left:100px;
+    position:absolute;
+    font-size:100px;
+    z-index:99999;
+}
+
+#hero .slick-slider .slick-next:before{
+    content:">"!important;
+    color:#ffff!important;
+    right:100px;
+    position:absolute;
+    font-size:70px;
+    z-index:99999;
+    top:25%;
+}
+
+

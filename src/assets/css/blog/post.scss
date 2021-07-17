@@ -1,0 +1,125 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+.post-section {
+    padding-top: 100px;
+}
+
+.post-section .blog-left {
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.post-similar {
+    display: flex;
+}
+
+.post-intro strong {
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.post-intro img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.post-image-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.post-image-box {
+    width: 45%;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.post-image-box img {
+    width: 100%;
+}
+
+.post-imgage-line {
+    padding-top: 10px;
+}
+
+.post-image-line p {
+    padding-top: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.post-image-line a {
+    color: #3176C4;
+}
+
+.blog-banner {
+    padding-right: 30px;
+}
+
+.blog-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.comment {
+    padding-top: 50px;
+}
+
+.comment textarea {
+    overflow: auto!important;
+    height: 109px!important;
+}
+
+.comment-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.comment {
+    padding-bottom: 70px;
+}
+
+#btn-comment {
+    font-weight: bold;
+    @include btn-more;
+    color: #ffff!important;
+    border: none!important;
+    margin-top: 20px;
+    background: linear-gradient(to right, #5d9add, #5e9fdf, #5fa3e1, #61a8e3, #63ace5, #64b0e7, #65b5e8, #67b9ea, #69beec, #6bc4ef, #6ec9f1, #71cef3) !important;
+}
+
+.single-comment {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.single-comment .comment-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.single-comment .comment-content {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-top strong {
+    display: flex;
+}
+
+.comment-top span {
+    display: flex;
+    font-size: 14px;
+    color: #5A5A5A;
+}
+
+.similar-row .blog-banner {
+    margin-top: 10px;
+}
