@@ -6,7 +6,7 @@
       <section class="flow-container">
         <div class="flow-row">
           
-        <PopupReset/>
+        <Blog/>
       
           </div>
         </section>
@@ -29,7 +29,7 @@ import Products from './components/Products.vue'
  import Popup from './components/Popup.vue' */
 /*import Contact from './components/Contact.vue' */
 
-import PopupReset from './components/PopupReset'
+import Blog from './components/Blog.vue'
 
 
 
@@ -55,7 +55,7 @@ export default {
   name: 'App',
   components: {
      HeaderFlow,
-     PopupReset,
+     Blog,
      FooterFlow,
  
     }

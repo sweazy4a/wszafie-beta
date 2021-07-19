@@ -69,7 +69,7 @@
 
 @mixin the-button {
     background: $buttonBG;
-    padding: 12px 30px;
+    padding: 0px 30px;
     color: #ffff;
     font-family: $fontMain;
     border-radius: 10px;
@@ -77,6 +77,9 @@
     display: table;
     margin-top: 20px;
     border: none;
+    max-height: 40px;
+    display: flex!important;
+    max-widt: 220px!important;
 }
 
 @mixin btn-more {
@@ -86,7 +89,11 @@
     padding: 10px 40px!important;
     font-family: $fontMain!important;
     font-size: 19px!important;
+    max-height: 40px;
     color: #3176C4!important;
+    max-height: 40px;
+    display: flex!important;
+    max-widt: 220px!important;
 }
 
 @mixin btn-remove {
@@ -97,6 +104,7 @@
     font-family: $fontMain!important;
     font-size: 19px!important;
     color: #FC3830!important;
+    max-height: 40px;
 }
 
 @mixin btn-big {
@@ -104,9 +112,12 @@
     max-width: 100%!important;
     background: $buttonBG!important;
     border: none;
-    padding: 15px 30px;
+    padding: 10px 30px;
     border-radius: 10px!important;
     font-size: 19px!important;
+    max-height: 40px;
+    display: flex!important;
+    max-widt: 220px!important;
 }
 
 @mixin tag-btn {
