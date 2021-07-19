@@ -5,8 +5,8 @@
 
       <section class="flow-container">
         <div class="flow-row">
-          <Popup/>
-         <Post/>
+          
+        <PopupReset/>
       
           </div>
         </section>
@@ -21,6 +21,7 @@
 <script>
 import Vue from 'vue'
 import HeaderFlow from './components/HeaderFlow.vue'
+
 /*
 import Hero from './components/Hero.vue'
 import Products from './components/Products.vue'
@@ -28,9 +29,10 @@ import Products from './components/Products.vue'
  import Popup from './components/Popup.vue' */
 /*import Contact from './components/Contact.vue' */
 
+import PopupReset from './components/PopupReset'
 
-import Popup from './components/Popup.vue'
-import Post from './components/Post.vue'
+
+
 import FooterFlow from './components/FooterFlow.vue'
 /* Bootstrap load */
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
@@ -53,8 +55,7 @@ export default {
   name: 'App',
   components: {
      HeaderFlow,
-     Popup,
-     Post,
+     PopupReset,
      FooterFlow,
  
     }

@@ -1,5 +1,9 @@
 <template>
+
+
 <footer>
+  <img class="elementz-v" src="../assets/img/elementz.svg"/>
+
   <section class="footer-container">
   <div class="promo-line">
       <div class="promo-row">
@@ -24,7 +28,7 @@
        <a class="social-ic" href="#facebook" target="_blank"><img alt="facebook" src="../assets/icons/face.svg"/></a>
        <a class="social-ic" href="#instagram" target="_blank"><img alt="instagram" src="../assets/icons/insta.svg"/></a>
        <a class="social-ic" href="#pinterest" target="_blank"><img alt="pinterest" src="../assets/icons/pint.svg"/></a> 
-   </div>
+     </div>
      </div>
 
   </section>

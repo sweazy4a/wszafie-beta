@@ -1,3 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="21.992" height="19.448" viewBox="0 0 21.992 19.448">
-  <path id="Path_1904" data-name="Path 1904" d="M-179.534-1726.439h0a4.977,4.977,0,0,0-7.038,0l-1.5,1.5-1.5-1.5a4.977,4.977,0,0,0-7.038,0h0a4.976,4.976,0,0,0,0,7.038l1.5,1.5,7.038,7.038,7.038-7.038,1.5-1.5A4.977,4.977,0,0,0-179.534-1726.439Z" transform="translate(199.068 1728.897)" fill="none" stroke="#5a5a5a" stroke-miterlimit="10" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <filter id="Эллипс_2" x="0" y="0" width="57" height="57" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_950" data-name="Сгруппировать 950" transform="translate(-473 -692)">
+    <g transform="matrix(1, 0, 0, 1, 473, 692)" filter="url(#Эллипс_2)">
+      <circle id="Эллипс_2-2" data-name="Эллипс 2" cx="19.5" cy="19.5" r="19.5" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <g id="Сгруппировать_949" data-name="Сгруппировать 949">
+      <path id="Контур_1904" data-name="Контур 1904" d="M-193.091-1728.9a5.938,5.938,0,0,1,4.226,1.751l.793.793.793-.793a5.938,5.938,0,0,1,4.226-1.751,5.938,5.938,0,0,1,4.226,1.751,5.937,5.937,0,0,1,1.751,4.226,5.937,5.937,0,0,1-1.751,4.226l-9.245,9.245-9.245-9.245a5.937,5.937,0,0,1-1.751-4.226,5.937,5.937,0,0,1,1.751-4.226A5.938,5.938,0,0,1-193.091-1728.9Zm5.019,5.372-2.207-2.207a3.951,3.951,0,0,0-2.812-1.165,3.951,3.951,0,0,0-2.812,1.165,3.95,3.95,0,0,0-1.165,2.812,3.95,3.95,0,0,0,1.165,2.812l7.831,7.831,7.831-7.831a3.951,3.951,0,0,0,1.165-2.812,3.95,3.95,0,0,0-1.165-2.812,3.951,3.951,0,0,0-2.812-1.165,3.951,3.951,0,0,0-2.812,1.165Z" transform="translate(689.568 2441.397)" fill="#5a5a5a"/>
+    </g>
+  </g>
 </svg>

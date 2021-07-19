@@ -203,3 +203,77 @@
     -moz-box-shadow: inset 0px 0px 300px 200px rgba(20, 20, 20, 0.64);
     box-shadow: inset 0px 0px 300px 200px rgba(20, 20, 20, 0.64);
 }
+
+
+#modal-2 .pop-right{
+  height:auto!important;
+}
+
+#modal-2 .custom-checkbox {
+    display:flex;
+    padding-top:20px;
+}
+
+#modal-2 .pop-right {
+    background-image:url('https://i.ibb.co/6JhxVn2/Group-947.jpg');
+}
+
+#app .modal-header{
+    border:none!important;
+    background:white;
+}
+
+#modal-3 .popup-content{
+    height:600px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   text-align:center;
+}
+
+#modal-3 h2{
+    font-weight:bold;
+}
+
+#modal-3 .reset-top {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#modal-3 .reset-row{
+    margin-top:150px;
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+    width:400px;
+}
+
+
+#btn-reset{
+    @include btn-more;
+    margin-top: 20px;
+    box-shadow: none!important;
+    display: flex!important;
+    border: 1.5px solid #CBCBCB!important;
+    color: #333132!important;
+    justify-content:center;
+    background:$buttonBG!important;
+    color:#ffff!important;
+}
+
+.reset-top p {
+    font-size:20px;
+    font-family:$fontMain;
+}
+
+ #modal-3 h2{
+    font-size:35px!important;
+}
+
+.reset-top p a {
+    padding-left:5px;
+    font-size:20px;
+    font-family:$fontMain;
+}
+
+

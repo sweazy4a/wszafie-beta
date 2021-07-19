@@ -141,3 +141,93 @@
 .b-form-datepicker button {
     display: none!important;
 }
+
+
+/* Profilebar */
+
+.profile-bar-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.profile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+    -moz-box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+    box-shadow: 0px 0px 37px 1px rgba(219, 219, 219, 0.52);
+    border-radius: 10px;
+    z-index: 999;
+    position: relative;
+    background: #ffff;
+}
+
+.bar-left {
+    display: flex;
+    width: 40%;
+}
+
+.bar-right p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 9999;
+}
+
+.bar-right p::before {
+    content: " „ ";
+    font-family: $fontMain;
+    font-size: 116px;
+    position: absolute;
+    bottom: 100px;
+    left: -25px;
+    z-index: -5!important;
+    font-weight: bold;
+    color: #F0F4FA;
+}
+
+.bar-left .prof-info {
+    padding-left: 20px;
+}
+
+.bar-left .info-line {
+    display: flex;
+    align-items: center;
+}
+
+.bar-left .info-line:nth-child(2) {
+    padding-left: 30px;
+}
+
+.bar-left .info-line:nth-child(3) {
+    padding-left: 30px;
+}
+
+.bar-left .info-line img {
+    padding-right: 10px;
+}
+
+.bar-left .prof-info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-right {
+    display: flex;
+    width: 35%;
+}
+
+.edit-btn {
+    float: right;
+    color: #333132;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 99999;
+}
+
+.edit-btn img {
+    padding-right: 5px;
+}

@@ -15,7 +15,7 @@
      <!-- Mid side --> 
      <div class="mid-side">
         <b-nav-form>
-          <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
+          <b-form-input size="sm" class="mr-sm-2" placeholder="Jaki produkt sprawi Ci dziś przyjemność?"></b-form-input>
           <b-button id="search-btn" size="sm" class="my-2 my-sm-0" type="submit"><img src="../assets/icons/search.svg"/></b-button>
         </b-nav-form>
        </div>

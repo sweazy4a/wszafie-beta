@@ -27,7 +27,7 @@
  
   export default {
     name: 'Hero',
-    components: { VueSlickCarousel },
+    components: { VueSlickCarousel }
   }
 
   require('@/assets/css/homepage/home.scss') 
